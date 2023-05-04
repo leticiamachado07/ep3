@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "cabeca cabeca cabeca cabeca"
+    "princi princi princi princi"
+    "rodape rodape rodape rodape";
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.grad_h{
+    grid-area: cabeca;
+    padding: 1rem;
+    background-color: rgb(17, 15, 117);
+}
+
+
+
+.grad_m{
+    grid-area: princi;
+    background-color:rgb(203, 227, 255);
+    padding: 2rem;
+    border: solid;
+    
+}
+
+.grad_f{
+    grid-area: rodape;
+    background-color: rgb(17, 15, 117);
+    padding: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.img-logo{
+    width: 100px;
+    height: auto;
+    margin: 0px;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-right: 400px;
+    color: rgb(255, 230, 0);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    
+}
+
+.navlist li{
+    letter-spacing: 2px;
+    margin-left: 95px;
+    
+    
+}
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.titulo-topicos{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.topicos{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.img-esquerda{
+    width: 400px;
+    margin-left: 150px;
+    
+}
+
+.img-direita{
+    width: 380px;
+    margin-left: 220px;
+}
+
+.img-p{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-p2{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navlistfooter{
+    display: flex;
+   
+}
+.navlistfooter li{
+    list-style: none;
+}
+
+.p-footer{
+    color: white;
+    letter-spacing: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
