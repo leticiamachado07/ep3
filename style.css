@@ -71,7 +71,7 @@ nav {
 
 .navlist li{
     letter-spacing: 2px;
-    margin-left: 95px;
+    justify-content:left;
     
     
 }
@@ -132,6 +132,7 @@ p{
 }
 .navlistfooter li{
     list-style: none;
+   
 }
 
 .p-footer{
